@@ -5,7 +5,7 @@ namespace BAMCIS.CredentialManager
     /// <summary>
     /// The type of the credential. This member cannot be changed after the credential is created. The following values are valid.
     /// </summary>
-    public enum CredentialType : UInt32
+    public enum CredentialType : uint
     {
         /// <summary>
         /// The credential is a generic credential. The credential will not be used by any particular authentication package. The credential will be stored securely but has no other significant characteristics.

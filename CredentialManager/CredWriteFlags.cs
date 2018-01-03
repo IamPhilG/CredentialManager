@@ -6,7 +6,7 @@ namespace BAMCIS.CredentialManager
     /// Flags that control the function's operation.
     /// </summary>
     [Flags]
-    public enum CredWriteFlags : UInt32
+    public enum CredWriteFlags : uint
     {
         /// <summary>
         /// The credential BLOB from an existing credential is preserved with the same credential name and credential type. The CredentialBlobSize of the passed in Credential structure must be zero.

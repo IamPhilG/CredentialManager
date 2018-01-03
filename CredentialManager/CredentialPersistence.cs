@@ -5,7 +5,7 @@ namespace BAMCIS.CredentialManager
     /// <summary>
     /// Defines the persistence of the credential.
     /// </summary>
-    public enum CredentialPersistence : UInt32
+    public enum CredentialPersistence : uint
     {
         /// <summary>
         /// The credential persists for the life of the logon session. It will not be visible to other logon sessions of this same user. It will not exist after this user logs off and back on.

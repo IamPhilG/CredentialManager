@@ -6,7 +6,7 @@ namespace BAMCIS.CredentialManager
     /// A bit member that identifies characteristics of the credential. Undefined bits should be initialized as zero and not otherwise altered to permit future enhancement.
     /// </summary>
     [Flags]
-    public enum CredentialFlags : UInt32
+    public enum CredentialFlags : uint
     {
         /// <summary>
         /// Bit set if the credential does not persist the CredentialBlob and the credential has not been written during this logon session. This bit is ignored on input and is set automatically when queried.
