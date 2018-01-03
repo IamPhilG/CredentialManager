@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BAMCIS.CredentialManager
+﻿namespace BAMCIS.CredentialManager
 {
     /// <summary>
     /// The type of the credential. This member cannot be changed after the credential is created. The following values are valid.

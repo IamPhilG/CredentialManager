@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BAMCIS.CredentialManager
+﻿namespace BAMCIS.CredentialManager
 {
     /// <summary>
     /// Defines the persistence of the credential.

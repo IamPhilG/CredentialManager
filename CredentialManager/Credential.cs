@@ -311,6 +311,7 @@ namespace BAMCIS.CredentialManager
             NewCred.CredentialBlob = Marshal.StringToHGlobalUni(this.CredentialBlob);
             NewCred.CredentialBlobSize = (UInt32)Encoding.Unicode.GetByteCount(this.CredentialBlob);
             NewCred.UserName = Marshal.StringToHGlobalUni(this.UserName);
+            NewCred.Flags = this.Flags;
 
             return NewCred;
         }
