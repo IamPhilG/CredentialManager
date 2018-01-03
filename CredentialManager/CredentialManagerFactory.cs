@@ -7,7 +7,7 @@ namespace BAMCIS.CredentialManager
     /// <summary>
     /// Provides an interface to the Win32 Credential Manager API to read, write, enumerate, and delete stored credentials
     /// </summary>
-    public static class CredentialManager
+    public static class CredentialManagerFactory
     {
         #region Win32 Functions
 

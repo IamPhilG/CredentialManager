@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CredentialManager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Credential Manager")]
+[assembly: AssemblyDescription(".NET Win32 Credential Manager API Wrapper")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CredentialManager")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("BAMCIS")]
+[assembly: AssemblyProduct("Credential Manager")]
+[assembly: AssemblyCopyright("Copyright © BAMCIS  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
